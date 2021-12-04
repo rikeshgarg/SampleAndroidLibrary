@@ -5,7 +5,7 @@ import android.content.Context;
 
 public class Toast extends Application {
 
-    public void showtext(Context c, String msg) {
+    public void showtoasttext(Context c, String msg) {
         android.widget.Toast.makeText(c, msg, android.widget.Toast.LENGTH_SHORT).show();
 
     }
